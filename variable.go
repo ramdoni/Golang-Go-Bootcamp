@@ -28,6 +28,25 @@ func main() {
 	fmt.Println("Alamat 2", alamat2)
 	fmt.Println("======================================")
 
+	// membuat varible sekaligus dengan tipe data
+	var (
+		no_ktp     int
+		no_telepon int
+		bank       string
+	)
+
+	no_ktp = 12345677
+	no_telepon = 87775365856
+	bank = "Bank Negara Indonesia"
+
+	fmt.Println("NO KTP", no_ktp)
+	fmt.Println("No Telepon", no_telepon)
+	fmt.Println("Bank", bank)
+	fmt.Println("======================================")
+
+	/**
+	 * Pembuatan group variable dengan langsung mengisi nilai variable
+	 */
 	var (
 		nama   = "Budi"
 		umur   = 25
