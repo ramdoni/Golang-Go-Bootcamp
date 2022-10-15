@@ -39,7 +39,7 @@ func main() {
 	no_telepon = 87775365856
 	bank = "Bank Negara Indonesia"
 
-	fmt.Println("NO KTP", no_ktp)
+	fmt.Println("No KTP", no_ktp)
 	fmt.Println("No Telepon", no_telepon)
 	fmt.Println("Bank", bank)
 	fmt.Println("======================================")
@@ -56,4 +56,13 @@ func main() {
 	fmt.Println("Nama", nama)
 	fmt.Println("Umur", umur)
 	fmt.Println("Alamat", alamat)
+
+	// membuat inline varible
+	var (
+		jenis_kelamin, tanggal_mulai, tanggal_akhir = "Laki-laki", "2022-01-01", "2022-10-01"
+	)
+
+	fmt.Println("Jenis Kelamin", jenis_kelamin)
+	fmt.Println("Tanggal Mulai", tanggal_mulai)
+	fmt.Println("Tanggal Akhir", tanggal_akhir)
 }
