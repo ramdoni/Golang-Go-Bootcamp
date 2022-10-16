@@ -23,6 +23,10 @@ func main() {
 	action := func() {
 		fmt.Println("Status Ok : ", StatusOk)
 		fmt.Println("Status Created : ", StatusCreated)
+		fmt.Println("Status Accepted : ", StatusAccepted)
+		fmt.Println("Status Non Autoritative Info : ", StatusNonAutoritativeInfo)
+		fmt.Println("Status Non Content : ", StatusNoContent)
+		fmt.Println("Status Partial Content : ", StatusPartialContent)
 	}
 
 	action()
